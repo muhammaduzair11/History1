@@ -1,0 +1,41 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image:url(floor-tile.png) ;
+   
+    
+}
+a{
+    text-decoration: none;
+    font-size: 30px;
+    color: rgba(34, 68, 110, 0.623);
+    font-family: papyrus;
+    
+}
+a:hover{
+    color: rgb(1, 7, 34);
+}
+.mainContainer{
+        margin-right: 75%;
+        border-radius: 25px;       
+}
+h1{
+    text-align: center;
+    color: rgb(162, 179, 182);
+    padding-top: 25px;
+    font-family: cursive;
+    font-size: 50px;
+    text-decoration: underline;
+}
+ol{
+    list-style-type: none;
+    font-size: 20px;
+    color: rgb(143, 22, 58);
+    font-weight: 700;
+}
+ul{
+    list-style-type: none;
+}
+
+
+
+
