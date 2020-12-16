@@ -43,7 +43,7 @@ h1:hover{
     background-color: #213e3b;
     border-radius: 500px;
     padding: 30px;
-    width: 13em;
+    width: 95vw;
     
 }
 a{
@@ -85,7 +85,17 @@ ul{
     margin-left: auto;
     margin-right: auto;
 }
-
+@media (max-width: 700px){
+    #maincontainer{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+@media (max-width: 1000px) {
+    #maincontainer {
+    letter-spacing: normal;       
+}
+}
 
 
 
