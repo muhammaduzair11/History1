@@ -8,8 +8,8 @@
 
 </head>
 
-<body>
-
+<body onload="myFunction()">
+    <div id="loader"></div>
     <h1>Ottomon sultan</h1>
     <div id="maincontainer">
         <div class="item">
@@ -592,6 +592,13 @@
 
 
     </div>
+    <script>
+             var loader = document.getElementById('loader');
+
+             function myFunction() {
+                 loader.style.display = 'none';
+             }  
+    </script>
 </body>
 
 
